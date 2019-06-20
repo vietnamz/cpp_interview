@@ -17,7 +17,9 @@ include_directories(${CMAKE_HOME_DIRECTORY} ${CMAKE_HOME_DIRECTORY}/test)
 
 set(test_SOURCES
 		main.cpp
-        Interview_test.cpp)
+        Interview_test.cpp
+        queue_test.cpp
+        graph_test.cpp)
 
 add_executable(InterviewTest ${test_SOURCES} ${GTestSrc}/src/gtest-all.cc ${GMockSrc}/src/gmock-all.cc)
 

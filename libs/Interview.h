@@ -20,6 +20,9 @@ const string& getHelloWorld();
 const string kLastLines(string fileName, int k);
 
 const int countWordOccurencies(const string book, string expectedWord);
+void segregate_character(vector<char>& listOfChar);
 
+vector<string> break_string(const string& input);
+int count_to_10();
 
 #endif /* LIBS_INTERVIEW_H_ */
