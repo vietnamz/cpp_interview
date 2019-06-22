@@ -125,33 +125,6 @@ InterviewTest/fast:
 	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/build
 .PHONY : InterviewTest/fast
 
-Interview_test.o: Interview_test.cpp.o
-
-.PHONY : Interview_test.o
-
-# target to build an object file
-Interview_test.cpp.o:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/Interview_test.cpp.o
-.PHONY : Interview_test.cpp.o
-
-Interview_test.i: Interview_test.cpp.i
-
-.PHONY : Interview_test.i
-
-# target to preprocess a source file
-Interview_test.cpp.i:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/Interview_test.cpp.i
-.PHONY : Interview_test.cpp.i
-
-Interview_test.s: Interview_test.cpp.s
-
-.PHONY : Interview_test.s
-
-# target to generate assembly for a file
-Interview_test.cpp.s:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/Interview_test.cpp.s
-.PHONY : Interview_test.cpp.s
-
 googletest/googlemock/src/gmock-all.o: googletest/googlemock/src/gmock-all.cc.o
 
 .PHONY : googletest/googlemock/src/gmock-all.o
@@ -233,6 +206,33 @@ graph_test.cpp.s:
 	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.s
 .PHONY : graph_test.cpp.s
 
+interval_map_test.o: interval_map_test.cpp.o
+
+.PHONY : interval_map_test.o
+
+# target to build an object file
+interval_map_test.cpp.o:
+	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.o
+.PHONY : interval_map_test.cpp.o
+
+interval_map_test.i: interval_map_test.cpp.i
+
+.PHONY : interval_map_test.i
+
+# target to preprocess a source file
+interval_map_test.cpp.i:
+	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.i
+.PHONY : interval_map_test.cpp.i
+
+interval_map_test.s: interval_map_test.cpp.s
+
+.PHONY : interval_map_test.s
+
+# target to generate assembly for a file
+interval_map_test.cpp.s:
+	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.s
+.PHONY : interval_map_test.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -287,6 +287,33 @@ queue_test.cpp.s:
 	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.s
 .PHONY : queue_test.cpp.s
 
+utilities_test.o: utilities_test.cpp.o
+
+.PHONY : utilities_test.o
+
+# target to build an object file
+utilities_test.cpp.o:
+	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.o
+.PHONY : utilities_test.cpp.o
+
+utilities_test.i: utilities_test.cpp.i
+
+.PHONY : utilities_test.i
+
+# target to preprocess a source file
+utilities_test.cpp.i:
+	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.i
+.PHONY : utilities_test.cpp.i
+
+utilities_test.s: utilities_test.cpp.s
+
+.PHONY : utilities_test.s
+
+# target to generate assembly for a file
+utilities_test.cpp.s:
+	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.s
+.PHONY : utilities_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -296,9 +323,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... InterviewTest"
-	@echo "... Interview_test.o"
-	@echo "... Interview_test.i"
-	@echo "... Interview_test.s"
 	@echo "... googletest/googlemock/src/gmock-all.o"
 	@echo "... googletest/googlemock/src/gmock-all.i"
 	@echo "... googletest/googlemock/src/gmock-all.s"
@@ -308,12 +332,18 @@ help:
 	@echo "... graph_test.o"
 	@echo "... graph_test.i"
 	@echo "... graph_test.s"
+	@echo "... interval_map_test.o"
+	@echo "... interval_map_test.i"
+	@echo "... interval_map_test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... queue_test.o"
 	@echo "... queue_test.i"
 	@echo "... queue_test.s"
+	@echo "... utilities_test.o"
+	@echo "... utilities_test.i"
+	@echo "... utilities_test.s"
 .PHONY : help
 
 

@@ -70,22 +70,35 @@ tests/CMakeFiles/InterviewTest.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InterviewTest.dir/main.cpp.s"
 	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/delgemoon/workspace/repo/cpp_interview/tests/main.cpp -o CMakeFiles/InterviewTest.dir/main.cpp.s
 
-tests/CMakeFiles/InterviewTest.dir/Interview_test.cpp.o: tests/CMakeFiles/InterviewTest.dir/flags.make
-tests/CMakeFiles/InterviewTest.dir/Interview_test.cpp.o: ../tests/Interview_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/InterviewTest.dir/Interview_test.cpp.o"
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InterviewTest.dir/Interview_test.cpp.o -c /Users/delgemoon/workspace/repo/cpp_interview/tests/Interview_test.cpp
+tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.o: tests/CMakeFiles/InterviewTest.dir/flags.make
+tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.o: ../tests/utilities_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.o"
+	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InterviewTest.dir/utilities_test.cpp.o -c /Users/delgemoon/workspace/repo/cpp_interview/tests/utilities_test.cpp
 
-tests/CMakeFiles/InterviewTest.dir/Interview_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InterviewTest.dir/Interview_test.cpp.i"
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/delgemoon/workspace/repo/cpp_interview/tests/Interview_test.cpp > CMakeFiles/InterviewTest.dir/Interview_test.cpp.i
+tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InterviewTest.dir/utilities_test.cpp.i"
+	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/delgemoon/workspace/repo/cpp_interview/tests/utilities_test.cpp > CMakeFiles/InterviewTest.dir/utilities_test.cpp.i
 
-tests/CMakeFiles/InterviewTest.dir/Interview_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InterviewTest.dir/Interview_test.cpp.s"
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/delgemoon/workspace/repo/cpp_interview/tests/Interview_test.cpp -o CMakeFiles/InterviewTest.dir/Interview_test.cpp.s
+tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InterviewTest.dir/utilities_test.cpp.s"
+	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/delgemoon/workspace/repo/cpp_interview/tests/utilities_test.cpp -o CMakeFiles/InterviewTest.dir/utilities_test.cpp.s
+
+tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.o: tests/CMakeFiles/InterviewTest.dir/flags.make
+tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.o: ../tests/interval_map_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.o"
+	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InterviewTest.dir/interval_map_test.cpp.o -c /Users/delgemoon/workspace/repo/cpp_interview/tests/interval_map_test.cpp
+
+tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InterviewTest.dir/interval_map_test.cpp.i"
+	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/delgemoon/workspace/repo/cpp_interview/tests/interval_map_test.cpp > CMakeFiles/InterviewTest.dir/interval_map_test.cpp.i
+
+tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InterviewTest.dir/interval_map_test.cpp.s"
+	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/delgemoon/workspace/repo/cpp_interview/tests/interval_map_test.cpp -o CMakeFiles/InterviewTest.dir/interval_map_test.cpp.s
 
 tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.o: tests/CMakeFiles/InterviewTest.dir/flags.make
 tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.o: ../tests/queue_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.o"
 	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InterviewTest.dir/queue_test.cpp.o -c /Users/delgemoon/workspace/repo/cpp_interview/tests/queue_test.cpp
 
 tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.i: cmake_force
@@ -98,7 +111,7 @@ tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.s: cmake_force
 
 tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.o: tests/CMakeFiles/InterviewTest.dir/flags.make
 tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.o: ../tests/graph_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.o"
 	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InterviewTest.dir/graph_test.cpp.o -c /Users/delgemoon/workspace/repo/cpp_interview/tests/graph_test.cpp
 
 tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.i: cmake_force
@@ -111,7 +124,7 @@ tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.s: cmake_force
 
 tests/CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.o: tests/CMakeFiles/InterviewTest.dir/flags.make
 tests/CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.o: ../tests/googletest/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.o"
 	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.o -c /Users/delgemoon/workspace/repo/cpp_interview/tests/googletest/googletest/src/gtest-all.cc
 
 tests/CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.i: cmake_force
@@ -124,7 +137,7 @@ tests/CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.s: cma
 
 tests/CMakeFiles/InterviewTest.dir/googletest/googlemock/src/gmock-all.cc.o: tests/CMakeFiles/InterviewTest.dir/flags.make
 tests/CMakeFiles/InterviewTest.dir/googletest/googlemock/src/gmock-all.cc.o: ../tests/googletest/googlemock/src/gmock-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/CMakeFiles/InterviewTest.dir/googletest/googlemock/src/gmock-all.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tests/CMakeFiles/InterviewTest.dir/googletest/googlemock/src/gmock-all.cc.o"
 	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InterviewTest.dir/googletest/googlemock/src/gmock-all.cc.o -c /Users/delgemoon/workspace/repo/cpp_interview/tests/googletest/googlemock/src/gmock-all.cc
 
 tests/CMakeFiles/InterviewTest.dir/googletest/googlemock/src/gmock-all.cc.i: cmake_force
@@ -138,7 +151,8 @@ tests/CMakeFiles/InterviewTest.dir/googletest/googlemock/src/gmock-all.cc.s: cma
 # Object files for target InterviewTest
 InterviewTest_OBJECTS = \
 "CMakeFiles/InterviewTest.dir/main.cpp.o" \
-"CMakeFiles/InterviewTest.dir/Interview_test.cpp.o" \
+"CMakeFiles/InterviewTest.dir/utilities_test.cpp.o" \
+"CMakeFiles/InterviewTest.dir/interval_map_test.cpp.o" \
 "CMakeFiles/InterviewTest.dir/queue_test.cpp.o" \
 "CMakeFiles/InterviewTest.dir/graph_test.cpp.o" \
 "CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.o" \
@@ -148,7 +162,8 @@ InterviewTest_OBJECTS = \
 InterviewTest_EXTERNAL_OBJECTS =
 
 tests/InterviewTest: tests/CMakeFiles/InterviewTest.dir/main.cpp.o
-tests/InterviewTest: tests/CMakeFiles/InterviewTest.dir/Interview_test.cpp.o
+tests/InterviewTest: tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.o
+tests/InterviewTest: tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.o
 tests/InterviewTest: tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.o
 tests/InterviewTest: tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.o
 tests/InterviewTest: tests/CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.o
@@ -156,7 +171,7 @@ tests/InterviewTest: tests/CMakeFiles/InterviewTest.dir/googletest/googlemock/sr
 tests/InterviewTest: tests/CMakeFiles/InterviewTest.dir/build.make
 tests/InterviewTest: libs/libinterviewLibs.a
 tests/InterviewTest: tests/CMakeFiles/InterviewTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable InterviewTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable InterviewTest"
 	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/InterviewTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

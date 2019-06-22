@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "libs/Interview.h"
+#include "libs/utilities.h"
 #include <string>
 
 using namespace std;
@@ -46,4 +46,17 @@ TEST(HelloWorld, get_sub_string) {
 
 TEST(HelloWorld, count_to_file) {
 	EXPECT_EQ(count_to_10(),0);
+}
+
+TEST(HelloWorld, varadic_template) {
+	EXPECT_EQ(test_variadic_template(), string("noo zoo foo"));
+}
+
+TEST(HelloWorld, add_summer) {
+	EXPECT_EQ(add_sum_template(), 27);
+}
+
+TEST(HelloWorld, palindrome) {
+	string word = "Deleveled";
+	EXPECT_EQ(isPalindrome(word), true);
 }

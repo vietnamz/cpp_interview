@@ -6,8 +6,12 @@
 
 #IncludeRegexTransform: 
 
-..//libs/Interview.h
-string
+..//libs/interval_map.h
+map
+-
+limits
+-
+iostream
 -
 
 ../tests/googletest/googletest/include/gtest/gtest-death-test.h
@@ -306,11 +310,11 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/Users/delgemoon/workspace/repo/cpp_interview/tests/Interview_test.cpp
+/Users/delgemoon/workspace/repo/cpp_interview/tests/interval_map_test.cpp
 gtest/gtest.h
 /Users/delgemoon/workspace/repo/cpp_interview/tests/gtest/gtest.h
-libs/Interview.h
-/Users/delgemoon/workspace/repo/cpp_interview/tests/libs/Interview.h
+libs/interval_map.h
+/Users/delgemoon/workspace/repo/cpp_interview/tests/libs/interval_map.h
 string
 -
 

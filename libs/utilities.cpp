@@ -1,4 +1,4 @@
-#include "Interview.h"
+#include "utilities.h"
 #include <fstream>
 #include <iostream>
 #include <vector>
@@ -24,10 +24,30 @@ int count_to_10() {
 	return 0;
 }
 
+int test_enum() {
+	TrafficLight color = TrafficLight::red;
+	CarColor camry = CarColor::silver;
+	int colorNumber  = red;
+	int myCarsColor = black;
+	Pet apet = Pet::bird;
+	Mammal m = Mammal::dog;
+	return 0;
+}
 const string& getHelloWorld() {
 	return HELLO_WORLD;
 }
 
+string test_variadic_template() {
+	string s1 = "foo", s2 = "zoo", s3 = "noo";
+	string cc = rcatenate(s1, s2, s3);
+	return cc;
+}
+
+int add_sum_template() {
+	int a = 4, b = 6, c = 8, d = 9;
+	int result = summer(a,b,c,d);
+	return result;
+}
 const string kLastLines(string fileName, int k) {
 	string result = "";
 	ifstream myfile(fileName);
@@ -104,9 +124,29 @@ vector<string> break_string(const string& input) {
 	}
 	vector<string> new_out;
 	std::remove_copy_if(output.begin(), output.end(), std::back_inserter(new_out), [](string a) { return a == "" or a == "," ; } );
-	for( string s : new_out ) {
-		//std::remove_if(s.begin(), s.end(), [](char c) {  return c == ','; });
-		cout << s << endl;
-	}
 	return new_out;
+}
+
+bool isPalindrome(string word)
+{
+  // Please write your code here.
+  map<char,int> aMap;
+  for (char c : word) {
+    auto tmp = aMap.find(c);
+    if (tmp != aMap.end()) {
+      aMap[tolower(c)]++;
+    } else {
+      aMap[tolower(c)] = 1;
+    }
+  }
+  int count = 0;
+  for(auto t : aMap) {
+    if( (t.second % 2) == 1 ) {
+      count++;
+    }
+  }
+  if ( count >= 2 ) {
+    return false;
+  }
+  return true;
 }

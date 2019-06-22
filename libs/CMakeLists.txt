@@ -1,11 +1,11 @@
 project(interviewLibs)
 
 set(lib_SRCS
-        Interview.cpp
+        utilities.cpp
         graph.cpp
         )
 set(lib_HEADERS
-    	Interview.h
+        utilities.h
         queue.h
         graph.h
         )

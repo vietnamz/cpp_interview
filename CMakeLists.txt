@@ -13,7 +13,7 @@ find_package(Boost COMPONENTS filesystem regex)
 if(Boost_FOUND)
     include_directories(${Boost_INCLUDE_DIRS}) 
 endif()
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(libs)
 add_subdirectory(tests)

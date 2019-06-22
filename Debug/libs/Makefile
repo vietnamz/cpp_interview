@@ -125,33 +125,6 @@ interviewLibs/fast:
 	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/build
 .PHONY : interviewLibs/fast
 
-Interview.o: Interview.cpp.o
-
-.PHONY : Interview.o
-
-# target to build an object file
-Interview.cpp.o:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/Interview.cpp.o
-.PHONY : Interview.cpp.o
-
-Interview.i: Interview.cpp.i
-
-.PHONY : Interview.i
-
-# target to preprocess a source file
-Interview.cpp.i:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/Interview.cpp.i
-.PHONY : Interview.cpp.i
-
-Interview.s: Interview.cpp.s
-
-.PHONY : Interview.s
-
-# target to generate assembly for a file
-Interview.cpp.s:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/Interview.cpp.s
-.PHONY : Interview.cpp.s
-
 graph.o: graph.cpp.o
 
 .PHONY : graph.o
@@ -179,6 +152,33 @@ graph.cpp.s:
 	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/graph.cpp.s
 .PHONY : graph.cpp.s
 
+utilities.o: utilities.cpp.o
+
+.PHONY : utilities.o
+
+# target to build an object file
+utilities.cpp.o:
+	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/utilities.cpp.o
+.PHONY : utilities.cpp.o
+
+utilities.i: utilities.cpp.i
+
+.PHONY : utilities.i
+
+# target to preprocess a source file
+utilities.cpp.i:
+	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/utilities.cpp.i
+.PHONY : utilities.cpp.i
+
+utilities.s: utilities.cpp.s
+
+.PHONY : utilities.s
+
+# target to generate assembly for a file
+utilities.cpp.s:
+	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/utilities.cpp.s
+.PHONY : utilities.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -188,12 +188,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... interviewLibs"
-	@echo "... Interview.o"
-	@echo "... Interview.i"
-	@echo "... Interview.s"
 	@echo "... graph.o"
 	@echo "... graph.i"
 	@echo "... graph.s"
+	@echo "... utilities.o"
+	@echo "... utilities.i"
+	@echo "... utilities.s"
 .PHONY : help
 
 
