@@ -176,6 +176,31 @@ tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.o: ../tests/googletest/googlet
 tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.o: ../tests/googletest/googletest/include/gtest/internal/gtest-type-util.h
 tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.o: ../tests/queue_test.cpp
 
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../libs/stack.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/gtest-death-test.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/gtest-matchers.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/gtest-message.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/gtest-param-test.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/gtest-printers.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/gtest-test-part.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/gtest-typed-test.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/gtest.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/gtest_pred_impl.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/gtest_prod.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/internal/custom/gtest-port.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/internal/custom/gtest-printers.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/internal/gtest-filepath.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/internal/gtest-internal.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/internal/gtest-param-util-generated.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/internal/gtest-param-util.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/internal/gtest-port-arch.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/internal/gtest-port.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/internal/gtest-string.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/googletest/googletest/include/gtest/internal/gtest-type-util.h
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o: ../tests/stack_test.cpp
+
+tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.o: ../libs/meal_combo.h
 tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.o: ../libs/utilities.h
 tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.o: ../tests/googletest/googletest/include/gtest/gtest-death-test.h
 tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.o: ../tests/googletest/googletest/include/gtest/gtest-matchers.h

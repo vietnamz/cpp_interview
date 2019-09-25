@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.14.5/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/delgemoon/workspace/repo/cpp_interview
+CMAKE_SOURCE_DIR = /Users/delgemoon/workspace/repo/cpp_practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/delgemoon/workspace/repo/cpp_interview/Debug
+CMAKE_BINARY_DIR = /Users/delgemoon/workspace/repo/cpp_practice/Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles /Users/delgemoon/workspace/repo/cpp_interview/Debug/libs/CMakeFiles/progress.marks
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f CMakeFiles/Makefile2 libs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles 0
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/delgemoon/workspace/repo/cpp_practice/Debug/CMakeFiles /Users/delgemoon/workspace/repo/cpp_practice/Debug/libs/CMakeFiles/progress.marks
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f CMakeFiles/Makefile2 libs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/delgemoon/workspace/repo/cpp_practice/Debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f CMakeFiles/Makefile2 libs/clean
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f CMakeFiles/Makefile2 libs/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f CMakeFiles/Makefile2 libs/preinstall
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f CMakeFiles/Makefile2 libs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f CMakeFiles/Makefile2 libs/preinstall
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f CMakeFiles/Makefile2 libs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libs/CMakeFiles/interviewLibs.dir/rule:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f CMakeFiles/Makefile2 libs/CMakeFiles/interviewLibs.dir/rule
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f CMakeFiles/Makefile2 libs/CMakeFiles/interviewLibs.dir/rule
 .PHONY : libs/CMakeFiles/interviewLibs.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ interviewLibs: libs/CMakeFiles/interviewLibs.dir/rule
 
 # fast build rule for target.
 interviewLibs/fast:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/build
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/build
 .PHONY : interviewLibs/fast
 
 graph.o: graph.cpp.o
@@ -131,7 +131,7 @@ graph.o: graph.cpp.o
 
 # target to build an object file
 graph.cpp.o:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/graph.cpp.o
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/graph.cpp.o
 .PHONY : graph.cpp.o
 
 graph.i: graph.cpp.i
@@ -140,7 +140,7 @@ graph.i: graph.cpp.i
 
 # target to preprocess a source file
 graph.cpp.i:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/graph.cpp.i
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/graph.cpp.i
 .PHONY : graph.cpp.i
 
 graph.s: graph.cpp.s
@@ -149,7 +149,7 @@ graph.s: graph.cpp.s
 
 # target to generate assembly for a file
 graph.cpp.s:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/graph.cpp.s
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/graph.cpp.s
 .PHONY : graph.cpp.s
 
 utilities.o: utilities.cpp.o
@@ -158,7 +158,7 @@ utilities.o: utilities.cpp.o
 
 # target to build an object file
 utilities.cpp.o:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/utilities.cpp.o
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/utilities.cpp.o
 .PHONY : utilities.cpp.o
 
 utilities.i: utilities.cpp.i
@@ -167,7 +167,7 @@ utilities.i: utilities.cpp.i
 
 # target to preprocess a source file
 utilities.cpp.i:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/utilities.cpp.i
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/utilities.cpp.i
 .PHONY : utilities.cpp.i
 
 utilities.s: utilities.cpp.s
@@ -176,7 +176,7 @@ utilities.s: utilities.cpp.s
 
 # target to generate assembly for a file
 utilities.cpp.s:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/utilities.cpp.s
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f libs/CMakeFiles/interviewLibs.dir/build.make libs/CMakeFiles/interviewLibs.dir/utilities.cpp.s
 .PHONY : utilities.cpp.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

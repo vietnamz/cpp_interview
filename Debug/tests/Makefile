@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.14.5/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/delgemoon/workspace/repo/cpp_interview
+CMAKE_SOURCE_DIR = /Users/delgemoon/workspace/repo/cpp_practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/delgemoon/workspace/repo/cpp_interview/Debug
+CMAKE_BINARY_DIR = /Users/delgemoon/workspace/repo/cpp_practice/Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles /Users/delgemoon/workspace/repo/cpp_interview/Debug/tests/CMakeFiles/progress.marks
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles 0
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/delgemoon/workspace/repo/cpp_practice/Debug/CMakeFiles /Users/delgemoon/workspace/repo/cpp_practice/Debug/tests/CMakeFiles/progress.marks
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/delgemoon/workspace/repo/cpp_practice/Debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/InterviewTest.dir/rule:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/InterviewTest.dir/rule
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/InterviewTest.dir/rule
 .PHONY : tests/CMakeFiles/InterviewTest.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ InterviewTest: tests/CMakeFiles/InterviewTest.dir/rule
 
 # fast build rule for target.
 InterviewTest/fast:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/build
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/build
 .PHONY : InterviewTest/fast
 
 googletest/googlemock/src/gmock-all.o: googletest/googlemock/src/gmock-all.cc.o
@@ -131,7 +131,7 @@ googletest/googlemock/src/gmock-all.o: googletest/googlemock/src/gmock-all.cc.o
 
 # target to build an object file
 googletest/googlemock/src/gmock-all.cc.o:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/googletest/googlemock/src/gmock-all.cc.o
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/googletest/googlemock/src/gmock-all.cc.o
 .PHONY : googletest/googlemock/src/gmock-all.cc.o
 
 googletest/googlemock/src/gmock-all.i: googletest/googlemock/src/gmock-all.cc.i
@@ -140,7 +140,7 @@ googletest/googlemock/src/gmock-all.i: googletest/googlemock/src/gmock-all.cc.i
 
 # target to preprocess a source file
 googletest/googlemock/src/gmock-all.cc.i:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/googletest/googlemock/src/gmock-all.cc.i
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/googletest/googlemock/src/gmock-all.cc.i
 .PHONY : googletest/googlemock/src/gmock-all.cc.i
 
 googletest/googlemock/src/gmock-all.s: googletest/googlemock/src/gmock-all.cc.s
@@ -149,7 +149,7 @@ googletest/googlemock/src/gmock-all.s: googletest/googlemock/src/gmock-all.cc.s
 
 # target to generate assembly for a file
 googletest/googlemock/src/gmock-all.cc.s:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/googletest/googlemock/src/gmock-all.cc.s
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/googletest/googlemock/src/gmock-all.cc.s
 .PHONY : googletest/googlemock/src/gmock-all.cc.s
 
 googletest/googletest/src/gtest-all.o: googletest/googletest/src/gtest-all.cc.o
@@ -158,7 +158,7 @@ googletest/googletest/src/gtest-all.o: googletest/googletest/src/gtest-all.cc.o
 
 # target to build an object file
 googletest/googletest/src/gtest-all.cc.o:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.o
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.o
 .PHONY : googletest/googletest/src/gtest-all.cc.o
 
 googletest/googletest/src/gtest-all.i: googletest/googletest/src/gtest-all.cc.i
@@ -167,7 +167,7 @@ googletest/googletest/src/gtest-all.i: googletest/googletest/src/gtest-all.cc.i
 
 # target to preprocess a source file
 googletest/googletest/src/gtest-all.cc.i:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.i
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.i
 .PHONY : googletest/googletest/src/gtest-all.cc.i
 
 googletest/googletest/src/gtest-all.s: googletest/googletest/src/gtest-all.cc.s
@@ -176,7 +176,7 @@ googletest/googletest/src/gtest-all.s: googletest/googletest/src/gtest-all.cc.s
 
 # target to generate assembly for a file
 googletest/googletest/src/gtest-all.cc.s:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.s
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.s
 .PHONY : googletest/googletest/src/gtest-all.cc.s
 
 graph_test.o: graph_test.cpp.o
@@ -185,7 +185,7 @@ graph_test.o: graph_test.cpp.o
 
 # target to build an object file
 graph_test.cpp.o:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.o
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.o
 .PHONY : graph_test.cpp.o
 
 graph_test.i: graph_test.cpp.i
@@ -194,7 +194,7 @@ graph_test.i: graph_test.cpp.i
 
 # target to preprocess a source file
 graph_test.cpp.i:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.i
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.i
 .PHONY : graph_test.cpp.i
 
 graph_test.s: graph_test.cpp.s
@@ -203,7 +203,7 @@ graph_test.s: graph_test.cpp.s
 
 # target to generate assembly for a file
 graph_test.cpp.s:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.s
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.s
 .PHONY : graph_test.cpp.s
 
 interval_map_test.o: interval_map_test.cpp.o
@@ -212,7 +212,7 @@ interval_map_test.o: interval_map_test.cpp.o
 
 # target to build an object file
 interval_map_test.cpp.o:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.o
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.o
 .PHONY : interval_map_test.cpp.o
 
 interval_map_test.i: interval_map_test.cpp.i
@@ -221,7 +221,7 @@ interval_map_test.i: interval_map_test.cpp.i
 
 # target to preprocess a source file
 interval_map_test.cpp.i:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.i
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.i
 .PHONY : interval_map_test.cpp.i
 
 interval_map_test.s: interval_map_test.cpp.s
@@ -230,7 +230,7 @@ interval_map_test.s: interval_map_test.cpp.s
 
 # target to generate assembly for a file
 interval_map_test.cpp.s:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.s
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.s
 .PHONY : interval_map_test.cpp.s
 
 main.o: main.cpp.o
@@ -239,7 +239,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/main.cpp.o
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -248,7 +248,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/main.cpp.i
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -257,7 +257,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/main.cpp.s
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 queue_test.o: queue_test.cpp.o
@@ -266,7 +266,7 @@ queue_test.o: queue_test.cpp.o
 
 # target to build an object file
 queue_test.cpp.o:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.o
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.o
 .PHONY : queue_test.cpp.o
 
 queue_test.i: queue_test.cpp.i
@@ -275,7 +275,7 @@ queue_test.i: queue_test.cpp.i
 
 # target to preprocess a source file
 queue_test.cpp.i:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.i
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.i
 .PHONY : queue_test.cpp.i
 
 queue_test.s: queue_test.cpp.s
@@ -284,8 +284,35 @@ queue_test.s: queue_test.cpp.s
 
 # target to generate assembly for a file
 queue_test.cpp.s:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.s
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.s
 .PHONY : queue_test.cpp.s
+
+stack_test.o: stack_test.cpp.o
+
+.PHONY : stack_test.o
+
+# target to build an object file
+stack_test.cpp.o:
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o
+.PHONY : stack_test.cpp.o
+
+stack_test.i: stack_test.cpp.i
+
+.PHONY : stack_test.i
+
+# target to preprocess a source file
+stack_test.cpp.i:
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.i
+.PHONY : stack_test.cpp.i
+
+stack_test.s: stack_test.cpp.s
+
+.PHONY : stack_test.s
+
+# target to generate assembly for a file
+stack_test.cpp.s:
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.s
+.PHONY : stack_test.cpp.s
 
 utilities_test.o: utilities_test.cpp.o
 
@@ -293,7 +320,7 @@ utilities_test.o: utilities_test.cpp.o
 
 # target to build an object file
 utilities_test.cpp.o:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.o
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.o
 .PHONY : utilities_test.cpp.o
 
 utilities_test.i: utilities_test.cpp.i
@@ -302,7 +329,7 @@ utilities_test.i: utilities_test.cpp.i
 
 # target to preprocess a source file
 utilities_test.cpp.i:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.i
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.i
 .PHONY : utilities_test.cpp.i
 
 utilities_test.s: utilities_test.cpp.s
@@ -311,7 +338,7 @@ utilities_test.s: utilities_test.cpp.s
 
 # target to generate assembly for a file
 utilities_test.cpp.s:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.s
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(MAKE) -f tests/CMakeFiles/InterviewTest.dir/build.make tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.s
 .PHONY : utilities_test.cpp.s
 
 # Help Target
@@ -341,6 +368,9 @@ help:
 	@echo "... queue_test.o"
 	@echo "... queue_test.i"
 	@echo "... queue_test.s"
+	@echo "... stack_test.o"
+	@echo "... stack_test.i"
+	@echo "... stack_test.s"
 	@echo "... utilities_test.o"
 	@echo "... utilities_test.i"
 	@echo "... utilities_test.s"
@@ -355,6 +385,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/delgemoon/workspace/repo/cpp_interview/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/delgemoon/workspace/repo/cpp_practice/Debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

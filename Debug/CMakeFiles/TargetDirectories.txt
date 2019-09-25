@@ -1,8 +1,8 @@
-/Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles/rebuild_cache.dir
-/Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles/edit_cache.dir
-/Users/delgemoon/workspace/repo/cpp_interview/Debug/libs/CMakeFiles/rebuild_cache.dir
-/Users/delgemoon/workspace/repo/cpp_interview/Debug/libs/CMakeFiles/edit_cache.dir
-/Users/delgemoon/workspace/repo/cpp_interview/Debug/libs/CMakeFiles/interviewLibs.dir
-/Users/delgemoon/workspace/repo/cpp_interview/Debug/tests/CMakeFiles/rebuild_cache.dir
-/Users/delgemoon/workspace/repo/cpp_interview/Debug/tests/CMakeFiles/edit_cache.dir
-/Users/delgemoon/workspace/repo/cpp_interview/Debug/tests/CMakeFiles/InterviewTest.dir
+/Users/delgemoon/workspace/repo/cpp_practice/Debug/CMakeFiles/rebuild_cache.dir
+/Users/delgemoon/workspace/repo/cpp_practice/Debug/CMakeFiles/edit_cache.dir
+/Users/delgemoon/workspace/repo/cpp_practice/Debug/libs/CMakeFiles/rebuild_cache.dir
+/Users/delgemoon/workspace/repo/cpp_practice/Debug/libs/CMakeFiles/edit_cache.dir
+/Users/delgemoon/workspace/repo/cpp_practice/Debug/libs/CMakeFiles/interviewLibs.dir
+/Users/delgemoon/workspace/repo/cpp_practice/Debug/tests/CMakeFiles/rebuild_cache.dir
+/Users/delgemoon/workspace/repo/cpp_practice/Debug/tests/CMakeFiles/edit_cache.dir
+/Users/delgemoon/workspace/repo/cpp_practice/Debug/tests/CMakeFiles/InterviewTest.dir

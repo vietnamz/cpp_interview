@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/delgemoon/workspace/repo/cpp_interview/libs/graph.cpp" "/Users/delgemoon/workspace/repo/cpp_interview/Debug/libs/CMakeFiles/interviewLibs.dir/graph.cpp.o"
-  "/Users/delgemoon/workspace/repo/cpp_interview/libs/utilities.cpp" "/Users/delgemoon/workspace/repo/cpp_interview/Debug/libs/CMakeFiles/interviewLibs.dir/utilities.cpp.o"
+  "/Users/delgemoon/workspace/repo/cpp_practice/libs/graph.cpp" "/Users/delgemoon/workspace/repo/cpp_practice/Debug/libs/CMakeFiles/interviewLibs.dir/graph.cpp.o"
+  "/Users/delgemoon/workspace/repo/cpp_practice/libs/utilities.cpp" "/Users/delgemoon/workspace/repo/cpp_practice/Debug/libs/CMakeFiles/interviewLibs.dir/utilities.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

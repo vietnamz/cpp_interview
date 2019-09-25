@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/delgemoon/workspace/repo/cpp_interview/libs/utilities.cpp
+/Users/delgemoon/workspace/repo/cpp_practice/libs/utilities.cpp
 utilities.h
-/Users/delgemoon/workspace/repo/cpp_interview/libs/utilities.h
+/Users/delgemoon/workspace/repo/cpp_practice/libs/utilities.h
 fstream
 -
 iostream
@@ -19,6 +19,14 @@ map
 -
 sstream
 -
+algorithm
+-
+numeric
+-
+cmath
+-
+sstream
+-
 iterator
 -
 boost/filesystem.hpp
@@ -26,7 +34,7 @@ boost/filesystem.hpp
 boost/filesystem/fstream.hpp
 -
 
-/Users/delgemoon/workspace/repo/cpp_interview/libs/utilities.h
+/Users/delgemoon/workspace/repo/cpp_practice/libs/utilities.h
 string
 -
 

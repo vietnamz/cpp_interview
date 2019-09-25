@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.14.5/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/delgemoon/workspace/repo/cpp_interview
+CMAKE_SOURCE_DIR = /Users/delgemoon/workspace/repo/cpp_practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/delgemoon/workspace/repo/cpp_interview/Debug
+CMAKE_BINARY_DIR = /Users/delgemoon/workspace/repo/cpp_practice/Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles /Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/delgemoon/workspace/repo/cpp_practice/Debug/CMakeFiles /Users/delgemoon/workspace/repo/cpp_practice/Debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/delgemoon/workspace/repo/cpp_interview/Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/delgemoon/workspace/repo/cpp_practice/Debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

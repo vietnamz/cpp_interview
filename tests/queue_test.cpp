@@ -15,7 +15,7 @@ TEST(QueueTest, SecondOne) {
     anotherQueue.push(7);
     anotherQueue.push(8);
     anotherQueue.push(9);
-    EXPECT_EQ(anotherQueue.front(), 9);
+    EXPECT_EQ(anotherQueue.front(), 6);
     EXPECT_EQ(anotherQueue.get_size(), 4);
 }
 
@@ -25,15 +25,16 @@ TEST(QueueTest, FirstPop) {
     anotherQueue.push(7);
     anotherQueue.push(8);
     anotherQueue.push(9);
-    EXPECT_EQ(anotherQueue.front(), 9);
+    EXPECT_EQ(anotherQueue.front(), 6);
     EXPECT_EQ(anotherQueue.get_size(), 4);
     anotherQueue.pop();
-    EXPECT_EQ(anotherQueue.front(), 8);
+    EXPECT_EQ(anotherQueue.front(), 7);
     EXPECT_EQ(anotherQueue.get_size(), 3);
     anotherQueue.pop();
-    EXPECT_EQ(anotherQueue.front(), 7);
+    EXPECT_EQ(anotherQueue.front(), 8);
     EXPECT_EQ(anotherQueue.get_size(), 2);
     anotherQueue.pop();
+    EXPECT_EQ(anotherQueue.front(), 9);
     anotherQueue.pop();
     EXPECT_THROW(anotherQueue.front(), std::invalid_argument);
 }

@@ -4,6 +4,10 @@
 #include <vector>
 #include <map>
 #include <sstream>
+#include <algorithm>
+#include <numeric>
+#include <cmath>
+#include <sstream>
 
 using namespace std;
 
@@ -149,4 +153,92 @@ bool isPalindrome(string word)
     return false;
   }
   return true;
+}
+
+int find_non_duplicate(const vector<int>& vec) {
+	int count = std::accumulate(vec.begin(), vec.end(),0);
+	int idx_start = 0;
+	int idx_end = vec.size() ;
+	while(idx_start < idx_end ) {
+		if (vec[idx_start] != vec[idx_end]) {
+			if ( vec[idx_start] != vec[idx_end - 1]) {
+				idx_end--;
+			} else {
+				if ( idx_start == idx_end -1 ) {
+					break;
+				}
+				idx_start++;
+			}
+		} else {
+			idx_start++;
+			idx_end--;
+		}
+	}
+
+	return vec[idx_start];
+}
+
+int binarian(vector<int>& input) {
+	int len = input.size();
+	int result = 0;
+	for ( int data : input) {
+		result += pow(2, data);
+	}
+	return result;
+}
+
+int count_set_bits(int num) {
+	int count = 0;
+	while( num > 0 ) {
+		num &= (num-1);
+		count += 1;
+	}
+	return count;
+}
+int binarian_t(vector<int>& input) {
+	int b = binarian(input);
+	return count_set_bits(b);
+}
+
+int third_biggest_number(const vector<int>& alist) {
+	int biggest_num = INT_MIN;
+	for(int i : alist) {
+		if ( i > biggest_num ) {
+			biggest_num = i;
+		}
+	}
+	int second_biggest_num = INT_MIN;
+	for(int i : alist) {
+		if ( i > second_biggest_num && i < biggest_num ) {
+			second_biggest_num = i;
+		}
+	}
+	int third_biggest_num = INT_MIN;
+	for(int i: alist ) {
+		if (i > third_biggest_num && i < second_biggest_num ) {
+			third_biggest_num = i;
+		}
+	}
+	return third_biggest_num;
+}
+
+int profit_sort(vector<int>& profit, int l, int r) {
+  /*
+  int myints[] = {10,20,30,30,20,10,10,20};
+  std::vector<int> v(myints,myints+8);           // 10 20 30 30 20 10 10 20
+
+  std::sort (v.begin(), v.end());                // 10 10 10 20 20 20 30 30 */
+// 23,13,10,2,33, 2, 10, 13, 23, 33
+  vector<int>::iterator low,up;
+  up = lower_bound (profit.begin(), profit.end(), r); //     
+  if ( find(profit.begin(), profit.end(), r) != profit.end() )
+  {
+	  up = up + 1;
+  }   
+  low =  upper_bound (profit.begin(), profit.end(), l); // 
+  if ( find(profit.begin(), profit.end(), l) != profit.end() )
+  {
+	  low = low  - 1;
+  }        
+  return (up - low);
 }

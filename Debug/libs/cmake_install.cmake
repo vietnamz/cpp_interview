@@ -1,4 +1,4 @@
-# Install script for directory: /Users/delgemoon/workspace/repo/cpp_interview/libs
+# Install script for directory: /Users/delgemoon/workspace/repo/cpp_practice/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

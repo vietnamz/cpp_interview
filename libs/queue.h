@@ -41,13 +41,23 @@ template<typename T> class Queue {
             }
         }
         void pop() {
+            if (count == 0 ) {
+                throw invalid_argument("No element yet");
+            }
+            if (count == 1 ) {
+                count = 0;
+                return;
+            }
+            for(int i = 1; i < count; i++ ) {
+                head.get()[i-1] = head.get()[i];
+            }
             count--;
         }
         T front() {
             if ( count == 0 ) {
                 throw invalid_argument("No element yet");
             }
-            return head.get()[count - 1];
+            return head.get()[0];
         }
         void reset() {
             head.reset();

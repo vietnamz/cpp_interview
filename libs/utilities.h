@@ -66,4 +66,11 @@ int add_sum_template();
 
 bool isPalindrome(string word);
 
+int find_non_duplicate(const vector<int>& vec);
+int binarian_t(vector<int>& t);
+
+int third_biggest_number(const vector<int>& alist);
+
+int profit_sort(vector<int>& profit, int left, int right);
+
 #endif /* LIBS_INTERVIEW_H_ */

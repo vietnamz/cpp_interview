@@ -46,7 +46,7 @@ tests/CMakeFiles/InterviewTest.dir/googletest/googlemock/src/gmock-all.cc.o
  ../tests/googletest/googletest/include/gtest/internal/gtest-port.h
  ../tests/googletest/googletest/include/gtest/internal/gtest-string.h
  ../tests/googletest/googletest/include/gtest/internal/gtest-type-util.h
- /Users/delgemoon/workspace/repo/cpp_interview/tests/googletest/googlemock/src/gmock-all.cc
+ /Users/delgemoon/workspace/repo/cpp_practice/tests/googletest/googlemock/src/gmock-all.cc
 tests/CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.o
  ../tests/googletest/googletest/include/gtest/gtest-death-test.h
  ../tests/googletest/googletest/include/gtest/gtest-matchers.h
@@ -80,7 +80,7 @@ tests/CMakeFiles/InterviewTest.dir/googletest/googletest/src/gtest-all.cc.o
  ../tests/googletest/googletest/src/gtest-test-part.cc
  ../tests/googletest/googletest/src/gtest-typed-test.cc
  ../tests/googletest/googletest/src/gtest.cc
- /Users/delgemoon/workspace/repo/cpp_interview/tests/googletest/googletest/src/gtest-all.cc
+ /Users/delgemoon/workspace/repo/cpp_practice/tests/googletest/googletest/src/gtest-all.cc
 tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.o
  ..//libs/graph.h
  ../tests/googletest/googletest/include/gtest/gtest-death-test.h
@@ -104,7 +104,7 @@ tests/CMakeFiles/InterviewTest.dir/graph_test.cpp.o
  ../tests/googletest/googletest/include/gtest/internal/gtest-port.h
  ../tests/googletest/googletest/include/gtest/internal/gtest-string.h
  ../tests/googletest/googletest/include/gtest/internal/gtest-type-util.h
- /Users/delgemoon/workspace/repo/cpp_interview/tests/graph_test.cpp
+ /Users/delgemoon/workspace/repo/cpp_practice/tests/graph_test.cpp
 tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.o
  ..//libs/interval_map.h
  ../tests/googletest/googletest/include/gtest/gtest-death-test.h
@@ -128,7 +128,7 @@ tests/CMakeFiles/InterviewTest.dir/interval_map_test.cpp.o
  ../tests/googletest/googletest/include/gtest/internal/gtest-port.h
  ../tests/googletest/googletest/include/gtest/internal/gtest-string.h
  ../tests/googletest/googletest/include/gtest/internal/gtest-type-util.h
- /Users/delgemoon/workspace/repo/cpp_interview/tests/interval_map_test.cpp
+ /Users/delgemoon/workspace/repo/cpp_practice/tests/interval_map_test.cpp
 tests/CMakeFiles/InterviewTest.dir/main.cpp.o
  ../tests/googletest/googletest/include/gtest/gtest-death-test.h
  ../tests/googletest/googletest/include/gtest/gtest-matchers.h
@@ -151,7 +151,7 @@ tests/CMakeFiles/InterviewTest.dir/main.cpp.o
  ../tests/googletest/googletest/include/gtest/internal/gtest-port.h
  ../tests/googletest/googletest/include/gtest/internal/gtest-string.h
  ../tests/googletest/googletest/include/gtest/internal/gtest-type-util.h
- /Users/delgemoon/workspace/repo/cpp_interview/tests/main.cpp
+ /Users/delgemoon/workspace/repo/cpp_practice/tests/main.cpp
 tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.o
  ..//libs/queue.h
  ../tests/googletest/googletest/include/gtest/gtest-death-test.h
@@ -175,8 +175,33 @@ tests/CMakeFiles/InterviewTest.dir/queue_test.cpp.o
  ../tests/googletest/googletest/include/gtest/internal/gtest-port.h
  ../tests/googletest/googletest/include/gtest/internal/gtest-string.h
  ../tests/googletest/googletest/include/gtest/internal/gtest-type-util.h
- /Users/delgemoon/workspace/repo/cpp_interview/tests/queue_test.cpp
+ /Users/delgemoon/workspace/repo/cpp_practice/tests/queue_test.cpp
+tests/CMakeFiles/InterviewTest.dir/stack_test.cpp.o
+ ..//libs/stack.h
+ ../tests/googletest/googletest/include/gtest/gtest-death-test.h
+ ../tests/googletest/googletest/include/gtest/gtest-matchers.h
+ ../tests/googletest/googletest/include/gtest/gtest-message.h
+ ../tests/googletest/googletest/include/gtest/gtest-param-test.h
+ ../tests/googletest/googletest/include/gtest/gtest-printers.h
+ ../tests/googletest/googletest/include/gtest/gtest-test-part.h
+ ../tests/googletest/googletest/include/gtest/gtest-typed-test.h
+ ../tests/googletest/googletest/include/gtest/gtest.h
+ ../tests/googletest/googletest/include/gtest/gtest_pred_impl.h
+ ../tests/googletest/googletest/include/gtest/gtest_prod.h
+ ../tests/googletest/googletest/include/gtest/internal/custom/gtest-port.h
+ ../tests/googletest/googletest/include/gtest/internal/custom/gtest-printers.h
+ ../tests/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
+ ../tests/googletest/googletest/include/gtest/internal/gtest-filepath.h
+ ../tests/googletest/googletest/include/gtest/internal/gtest-internal.h
+ ../tests/googletest/googletest/include/gtest/internal/gtest-param-util-generated.h
+ ../tests/googletest/googletest/include/gtest/internal/gtest-param-util.h
+ ../tests/googletest/googletest/include/gtest/internal/gtest-port-arch.h
+ ../tests/googletest/googletest/include/gtest/internal/gtest-port.h
+ ../tests/googletest/googletest/include/gtest/internal/gtest-string.h
+ ../tests/googletest/googletest/include/gtest/internal/gtest-type-util.h
+ /Users/delgemoon/workspace/repo/cpp_practice/tests/stack_test.cpp
 tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.o
+ ..//libs/meal_combo.h
  ..//libs/utilities.h
  ../tests/googletest/googletest/include/gtest/gtest-death-test.h
  ../tests/googletest/googletest/include/gtest/gtest-matchers.h
@@ -199,4 +224,4 @@ tests/CMakeFiles/InterviewTest.dir/utilities_test.cpp.o
  ../tests/googletest/googletest/include/gtest/internal/gtest-port.h
  ../tests/googletest/googletest/include/gtest/internal/gtest-string.h
  ../tests/googletest/googletest/include/gtest/internal/gtest-type-util.h
- /Users/delgemoon/workspace/repo/cpp_interview/tests/utilities_test.cpp
+ /Users/delgemoon/workspace/repo/cpp_practice/tests/utilities_test.cpp

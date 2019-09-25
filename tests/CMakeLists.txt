@@ -20,6 +20,7 @@ set(test_SOURCES
         utilities_test.cpp
         interval_map_test.cpp
         queue_test.cpp
+        stack_test.cpp
         graph_test.cpp)
 
 add_executable(InterviewTest ${test_SOURCES} ${GTestSrc}/src/gtest-all.cc ${GMockSrc}/src/gmock-all.cc)

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/delgemoon/workspace/repo/cpp_interview
+# Install script for directory: /Users/delgemoon/workspace/repo/cpp_practice
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/delgemoon/workspace/repo/cpp_interview/Debug/libs/cmake_install.cmake")
-  include("/Users/delgemoon/workspace/repo/cpp_interview/Debug/tests/cmake_install.cmake")
+  include("/Users/delgemoon/workspace/repo/cpp_practice/Debug/libs/cmake_install.cmake")
+  include("/Users/delgemoon/workspace/repo/cpp_practice/Debug/tests/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/delgemoon/workspace/repo/cpp_interview/Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/delgemoon/workspace/repo/cpp_practice/Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

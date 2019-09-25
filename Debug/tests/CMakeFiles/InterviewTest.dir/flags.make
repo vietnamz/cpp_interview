@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/Ma
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include -I/Users/delgemoon/workspace/repo/cpp_interview -I/Users/delgemoon/workspace/repo/cpp_interview/libs -I/Users/delgemoon/workspace/repo/cpp_interview/tests/googletest/googletest -I/Users/delgemoon/workspace/repo/cpp_interview/tests/googletest/googletest/include -I/Users/delgemoon/workspace/repo/cpp_interview/tests/googletest/googlemock -I/Users/delgemoon/workspace/repo/cpp_interview/tests/googletest/googlemock/include -I/Users/delgemoon/workspace/repo/cpp_interview/test 
+CXX_INCLUDES = -I/usr/local/include -I/Users/delgemoon/workspace/repo/cpp_practice -I/Users/delgemoon/workspace/repo/cpp_practice/libs -I/Users/delgemoon/workspace/repo/cpp_practice/tests/googletest/googletest -I/Users/delgemoon/workspace/repo/cpp_practice/tests/googletest/googletest/include -I/Users/delgemoon/workspace/repo/cpp_practice/tests/googletest/googlemock -I/Users/delgemoon/workspace/repo/cpp_practice/tests/googletest/googlemock/include -I/Users/delgemoon/workspace/repo/cpp_practice/test 
 
